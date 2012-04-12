@@ -36,6 +36,7 @@ c.start
 ## Tags
 
 Switch between differences using the tags
+don't forget to restart the worker
 
 ```bash
 git checkout slow
