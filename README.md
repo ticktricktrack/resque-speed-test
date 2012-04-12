@@ -33,7 +33,18 @@ c = Category.last #100 items
 c.start
 ```
 
-### Super Slow
+## Tags
+
+Switch between differences using the tags
+
+```bash
+git checkout slow
+git checkout broken
+git checkout fast
+git checkout faster
+```
+
+### Slow
 
 ```ruby
 # load the Rails app all the time
@@ -45,7 +56,7 @@ namespace :resque do
 end
 ```
 
-### Not Working
+### Broken
 
 ```ruby
 # load the Rails app all the time
