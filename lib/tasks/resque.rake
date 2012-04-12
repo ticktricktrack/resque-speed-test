@@ -4,7 +4,7 @@ namespace :resque do
   puts "Loading Rails environment for Resque"
   task :setup => :environment do
     # ActiveRecord::Base.descendants.each { |klass|  puts klass.first.name }
-    Product.columns
-    # Product.first
+    # Product.columns
+    Product.first
   end
 end
